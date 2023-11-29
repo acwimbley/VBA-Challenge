@@ -1,7 +1,8 @@
 # VBA-Challenge
 
-Some of the code was other assignments and questioning ChatGPT.  I learned how to troubleshoot. I kept changing the code as I thought I was understanding it.  
-First step was learning how to isolate and run the code on a single worksheet.
-On the one worksheet, I created a summary section so that the stock symbol (tickername) can be summarized.
-I added two additional columns so I could verify the open price from the beginning of the year to the close price at the end of the year.
-I had an issue and contacted BCS and the code was changed again causing a delay but determined to get it uploaded.
+There are three modules containing the following scripts for testing and completing challenge
+Module 1 - creates a summary sheet (idea from one of the class assignments) and all stock information from the individual worksheets are combined in that one summary sheet.
+Module 2 - tests the scripts in summarizing each ticker symbol.  I added the open and close price column so that I can check if the script was pulling the information correctly for calculation
+Module 3 - this one tests that what can be done on one worksheet was able to be done on all worksheets in the workbook
+
+My current challenge was the conditional formatting which I could not get to work so I removed and the Calculated values
